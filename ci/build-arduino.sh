@@ -18,6 +18,7 @@ arduino-cli core install arduino:avr
 # Link Arduino library
 ln -s $GITHUB_WORKSPACE $HOME/Arduino/libraries/CI_Test_Library
 # Compile all *.ino files for the Arduino Uno
+arduino-cli compile -b arduino:avr:uno WorkflowTest/BlinkTest.ino
 for f in **/*.ino ; do
     arduino-cli compile -b arduino:avr:uno $f
 done
