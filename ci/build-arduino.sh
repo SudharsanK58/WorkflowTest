@@ -21,4 +21,5 @@ arduino-cli core install arduino:avr
 # for f in **/*.ino ; do
 #     arduino-cli compile -b arduino:avr:uno $f
 # done
-arduino-cli compile -b arduino:avr:uno
+# arduino-cli compile -b arduino:avr:uno
+pwd
