@@ -16,6 +16,6 @@ arduino-cli core update-index
 # Install Arduino AVR core
 arduino-cli core install arduino:avr
 cd /home/runner/work/WorkflowTest/WorkflowTest
-arduino-cli config init
-sudo arduino-cli core list
+sudo arduino-cli config init
+arduino-cli core list
 arduino-cli compile -b arduino:avr:uno
