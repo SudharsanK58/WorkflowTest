@@ -24,3 +24,4 @@ arduino-cli core install arduino:avr
 # arduino-cli compile -b arduino:avr:uno
 cd /home/runner/work/WorkflowTest/WorkflowTest
 ls
+arduino-cli compile -b arduino:avr:uno
